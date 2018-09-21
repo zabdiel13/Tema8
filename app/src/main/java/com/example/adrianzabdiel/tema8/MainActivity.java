@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     public void intentWeb(View view){
         String url = paginaEditText.getText().toString();
         if(URLUtil.isValidUrl(url)){
-            Intent intent=new Intent(Intent.ACTION_DIAL);
+            Intent intent=new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse(url));
             startActivity(intent);
         }
