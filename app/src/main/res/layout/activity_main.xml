@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="401dp"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Numero de telefono" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="intentTelefono"
+        android:text="Abrir telefono" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="401dp"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:inputType="textUri"
+        android:text="Pagina Web" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:onClick="intentWeb"
+        android:text="Abrir URL" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="415dp"
+        android:layout_height="wrap_content"
+        android:onClick="intentMaps"
+        android:text="Button" />
+</LinearLayout>
